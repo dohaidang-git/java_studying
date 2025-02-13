@@ -5,10 +5,10 @@ public class Bai1 {
         System.out.println("Run Bai1");
         Scanner scanner = new Scanner(System.in);
 
-        System.out.printf("Your name is: ");
+        System.out.print("Your name is: ");
         String name = scanner.nextLine();
 
-        System.out.printf("Your score is: ");
+        System.out.print("Your score is: ");
         int score = scanner.nextInt();
 
         System.out.println(name + " has score " + score);
